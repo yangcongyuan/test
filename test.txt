@@ -7,4 +7,5 @@ CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=$AGENT_ID"
 CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=$APPLICATION_NAME"
 
 ces
+´øµÄ¶¯
 ¹þ¹þ
