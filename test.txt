@@ -1,0 +1,9 @@
+AGENT_PATH="/opt/pinpoint/pinpoint-agent-1.6.1-SNAPSHOT"
+VERSION="1.6.1"
+AGENT_ID="baseline-agent"
+APPLICATION_NAME="baseline"
+CATALINA_OPTS="$CATALINA_OPTS -javaagent:$AGENT_PATH/pinpoint-bootstrap-$VERSION-SNAPSHOT.jar"
+CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=$AGENT_ID"
+CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=$APPLICATION_NAME"
+
+ces
