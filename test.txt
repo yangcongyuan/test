@@ -7,3 +7,10 @@ CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=$AGENT_ID"
 CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=$APPLICATION_NAME"
 
 test
+YangCongYuan
+363373408@qq.com
+git config --global user.name "YangCongYuan"
+git config --global user.email "363373408@qq.com"
+
+git init ：初始化库
+git add test.txt 添加到暂存区
