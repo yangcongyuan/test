@@ -16,3 +16,4 @@ git init ：初始化库
 git add test.txt 添加到暂存区
 git commit -m "test" 提交到库
 git pust test master 提交到远程库
+test
