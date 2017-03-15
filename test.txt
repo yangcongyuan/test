@@ -6,7 +6,6 @@ CATALINA_OPTS="$CATALINA_OPTS -javaagent:$AGENT_PATH/pinpoint-bootstrap-$VERSION
 CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=$AGENT_ID"
 CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=$APPLICATION_NAME"
 
-test
 YangCongYuan
 363373408@qq.com
 git config --global user.name "YangCongYuan"
@@ -16,4 +15,19 @@ git init ：初始化库
 git add test.txt 添加到暂存区
 git commit -m "test" 提交到库
 git pust test master 提交到远程库
+
+git remote remove test 移除本地关联远程库名
+
+git remote add test git@github@com:yangcongyuan/test.git 
+关联本地库和远程库
+
+git checkout -b dev 创建并切换分支到dev相当于下面两句执行
+git branch dev创建dev分支
+git checkout dev切换分支到devv
+
+git branch查看当前分支
+
+git merge dev把分支dev的工工作成果合并到master 前提是先切换分支到master要
+git branch -d dev删除分支dev
+
 test
