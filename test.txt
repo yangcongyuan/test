@@ -32,3 +32,6 @@ git branch -d dev删除分支dev
 
 
 test
+ git merge --no-ff -m "merge with no-ff" dev团队开发用这种模式 表示禁用fast forward
+
+git stash储藏
